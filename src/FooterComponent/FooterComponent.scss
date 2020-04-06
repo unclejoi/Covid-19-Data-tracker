@@ -1,0 +1,23 @@
+.footer-container{
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    background-color: #333647;
+}
+.git{
+    font-size: 40px;
+    color: #bdb9b7;
+    margin: 20px;
+}
+
+.git:hover{
+    color: #fffefe;
+    text-decoration: none;
+}
+
+.copyright{
+    float:right;
+    color: #fffefe;
+    margin: 30px;
+    font-size:12px;
+}

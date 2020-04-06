@@ -120,7 +120,7 @@ class PhCaseComponent extends Component {
                             </Row>
                             <Row>
                                 <Col xs="12" md="6" lg="6" className="mb-3">
-                                    <Card>
+                                    <Card className="opacity">
                                         <CardTitle className="title_header">
                                             <h2 >Table of all individual case in Philippines</h2>
                                             <p>(as of {daty})</p>
@@ -129,7 +129,7 @@ class PhCaseComponent extends Component {
                                     </Card>
                                 </Col>
                                 <Col xs="12" md="6" lg="6" >
-                                    <Card>
+                                    <Card className="opacity">
                                         <CardTitle className="title_header">
                                             <h3>No. of confirmed cases and PUIs per Establishment</h3>
                                             <p>(as of {daty})</p>                

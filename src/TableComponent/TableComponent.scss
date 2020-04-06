@@ -1,3 +1,20 @@
 .ag-theme-material{
     border-radius: 50%!important;
 }
+
+.table-container{
+    height: 650px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .table-container{
+        height: 400px;
+        width: 100%;
+        font-size: 8;
+    }
+  }

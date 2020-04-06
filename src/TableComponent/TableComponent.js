@@ -40,12 +40,7 @@ class TableComponent extends Component {
         const { items } = this.props
         return(
             <div
-            className="ag-theme-material"
-            style={{
-            height: '650px',
-            width: '100%',
-            borderRadius: "5px"
-            }}
+            className="ag-theme-material table-container"
           >
             <AgGridReact
               columnDefs={this.state.columnDefs}

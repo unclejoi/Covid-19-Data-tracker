@@ -1,0 +1,92 @@
+.right-container{
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.mt-7{
+    margin-top: 100px;
+}
+
+.column-header {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    color: white
+}
+
+.white{
+    color: #bdb9b7;
+}
+
+
+.counter{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.cases-section{
+    text-align: center;
+
+    .total{
+        color: #bdb9b7;
+    }
+    .recovered{
+
+    }
+    .death{
+
+    }
+
+    
+}
+.card__ {
+    // box-shadow: 1px 1px 1px 2px rgba(90, 94, 109, 0.253);
+    border: 0;
+    background-color: inherit ;
+}
+
+
+.card__case{
+    box-shadow: 1px 1px 1px 2px rgba(90, 94, 109, 0.253);
+    display: flexbox;
+    border-radius: 5px;
+    // color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #eeebe8;
+}
+
+
+
+.jumbo-design{
+    background-color: inherit;
+    text-align: center;
+    color: #bdb9b7;
+    padding: 20px;
+}
+/* .danger{
+    color: 
+} */
+
+@media only screen and (max-width: 600px) {
+    .mt-7{
+        margin-top: 0;
+    }
+    .jumbo-design{
+        margin-top: 70px;
+        height: 100%;
+        width: 100%;
+    }
+    .card__case{
+        width: 100%;
+    }
+  }
+
+  .title_header{
+    color: #585756;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }

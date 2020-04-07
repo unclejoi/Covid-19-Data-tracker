@@ -56,7 +56,7 @@ class PhCaseComponent extends Component {
                                                 <Row>
                                                     <Col xs="12" md="2" lg="2"> 
                                                         <Card color="info" className="card__case">
-                                                                <CardTitle>{ items.cases ? <CountUp start={0} end={items.cases} duration={3} className="counter" /> : null }</CardTitle>
+                                                                <CardTitle>{ items.cases ? <CountUp start={0} end={items.cases} duration={3} className="counter" /> : <span className="counter">0</span>}</CardTitle>
                                                             <p>Total Cases</p>
                                                         </Card>
                                                     </Col>
@@ -64,7 +64,7 @@ class PhCaseComponent extends Component {
                                                         <Card color="success" className="card__case">
                                                         <CardTitle>
                                                             {
-                                                                items.recovered ?   <CountUp start={0} end={items.recovered} duration={3} className="counter" /> : null
+                                                                items.recovered ?   <CountUp start={0} end={items.recovered} duration={3} className="counter" /> : <span className="counter">0</span>
 
                                                             }
                                                             
@@ -76,7 +76,7 @@ class PhCaseComponent extends Component {
                                                         <Card color="danger" className="card__case">
                                                         <CardTitle>
                                                             {
-                                                                items.deaths ?   <CountUp start={0} end={items.deaths} duration={3} className="counter" /> : null
+                                                                items.deaths ?   <CountUp start={0} end={items.deaths} duration={3} className="counter" /> : <span className="counter">0</span>
 
                                                             }
                                                         </CardTitle>
@@ -87,7 +87,7 @@ class PhCaseComponent extends Component {
                                                         <Card color="warning" className="card__case">
                                                         <CardTitle>
                                                             {
-                                                                items.critical ?   <CountUp start={0} end={items.critical} duration={3} className="counter" /> : null
+                                                                items.critical ?   <CountUp start={0} end={items.critical} duration={3} className="counter" /> : <span className="counter">0</span>
                                                             }
                                                         </CardTitle>
                                                             <p>In critical Condition</p>
@@ -97,7 +97,7 @@ class PhCaseComponent extends Component {
                                                         <Card color="secondary" className="card__case">
                                                         <CardTitle>
                                                             {
-                                                                items.active ?   <CountUp start={0} end={items.active} duration={3} className="counter" /> : null
+                                                                items.active ?   <CountUp start={0} end={items.active} duration={3} className="counter" /> : <span className="counter">0</span>
                                                             }
                                                         </CardTitle>
                                                             <p>Active Cases</p>
@@ -107,7 +107,7 @@ class PhCaseComponent extends Component {
                                                         <Card color="secondary" className="card__case">
                                                         <CardTitle>
                                                             {
-                                                                items.todayCases ?   <CountUp start={0} end={items.todayCases} duration={3} className="counter" /> : null
+                                                                items.todayCases ?   <CountUp start={0} end={items.todayCases} duration={3} className="counter" /> : <span className="counter">0</span>
                                                             }
                                                         </CardTitle>
                                                             <p>New Cases</p>
